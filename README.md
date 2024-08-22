@@ -101,9 +101,8 @@ def upload_image():
 
 		show_classify_button(file_path)
 
-	except:
-
-		pass
+	    except Exception as e:
+	        print(f"Error: {e}")
 ```
 
 Cuối cùng là hàm `show_classify_button` và cấu hình giao diện GUI để chúng ta dự đoán hình ảnh:
