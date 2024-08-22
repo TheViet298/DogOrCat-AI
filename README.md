@@ -22,7 +22,7 @@ Các bước để huấn luyện mô hình có thể tóm tắt như sau:
 5. Khởi tạo tệp dữ liệu `train` và `validation`
 6. Tiến hành huấn luyện
 
-Chi tiết các bước cụ thể các bạn có thể xem ở [dogvscat.ipynb](https://github.com/KudoKhang/DogOrCat/blob/main/dogvscat.ipynb)
+Chi tiết các bước cụ thể các bạn có thể xem ở [dogvscat.ipynb](https://github.com/TheViet298/DogOrCat-AI/blob/master/dogvscat.ipynb)
 
 ## Từ kết quả huấn luyện trên, xây dựng ứng dụng GUI để dự đoán hình ảnh
 Đầu tiên là import các thư viện cần thiết:
