@@ -2,7 +2,7 @@
 Chỉ cần kéo thả bức bức ảnh vào, ứng dụng thú vị này sẽ phân biệt cho bạn biết con vật trong hình là chó hay mèo :D
 
 <p align="center">
-  <iframe src="https://drive.google.com/file/d/1fWFO-jR9dkk8whZ5TAd0UP1sBQjPqbGS/preview" width="640" height="480" allow="autoplay"></iframe>
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXU2bWFhY3dnZGEzc2ZlM2Z6M2Q3aXVxcXA3a3JpMnlkMWIyanQ5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H1Uky4WIUSzYqqAajM/giphy.gif" />
 </p>
 
 
