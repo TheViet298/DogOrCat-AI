@@ -2,16 +2,17 @@
 Chỉ cần kéo thả bức bức ảnh vào, ứng dụng thú vị này sẽ phân biệt cho bạn biết con vật trong hình là chó hay mèo :D
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/HwvoeGvAZfc0uAxIsL/giphy.gif?cid=790b7611e68113adc13a5ce1cf9d9b0e859225fcc03aae15&rid=giphy.gif&ct=g" />
+  <iframe src="https://drive.google.com/file/d/1fWFO-jR9dkk8whZ5TAd0UP1sBQjPqbGS/preview" width="640" height="480" allow="autoplay"></iframe>
 </p>
+
 
 <p align="center>">
 	<i> Demo minh hoạ </i>
 </p>
 
 # How it work
-Phân loại hình ảnh chó hoặc mèo là một dự án deep learning cơ bản cho những người mới bắt đầu. Tập dữ liệu dùng để xây dựng bài toán này gồm 25.000 hình ảnh với số lượng chó mèo bằng nhau.
-Tập dữ liệu có sẵn trên kaggle, các bạn có thể xem và tải xuống [ở đây](https://www.kaggle.com/c/dogs-vs-cats/data)
+Phân loại hình ảnh chó hoặc mèo là một dự án deep learning cơ bản. Tập dữ liệu dùng để xây dựng bài toán này gồm 25.000 hình ảnh với số lượng chó mèo bằng nhau.
+Tập dữ liệu có sẵn trên kaggle, có thể xem qua [ở đây](https://www.kaggle.com/c/dogs-vs-cats/data)
 
 ## Đầu tiêu là huấn luyện mô hình
 Các bước để huấn luyện mô hình có thể tóm tắt như sau:
@@ -155,8 +156,8 @@ pip install -r requirements.txt
 # Usage
 Để chạy ứng dụng nhận biết chó hoặc mèo chúng ta chỉ cần chạy `app.py`:
 ```
-git clone https://github.com/KudoKhang/DogOrCat
-cd DogOrCat
+git clone https://github.com/TheViet298/DogOrCat-AI
+cd DogOrCat-AI
 pip install -r requirements.txt
 python app.py
 ```
@@ -170,6 +171,3 @@ python gradio-app.py
 <p align="center">
 	<img src="https://i.imgur.com/nA9xcdF.png" />
 </p>
-
-# Summary
-Như đã nói ban đầu thì đây là một ứng dụng khá đơn giản, với tập dữ liệu rất lớn và đầy đủ thì độ chính xác của mô hình sau khi huấn luyện rất cao. Ở đây mình chỉ train chưa xong 2 epoch mà val_acc đã hơn 0.7 rồi. Các bạn có thể train nhiều epochs để độ chính xác được cao hơn.
